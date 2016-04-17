@@ -4,9 +4,14 @@
 //
 //  Created by LV on 16/4/16.
 //  Copyright © 2016年 lvhongyang. All rights reserved.
-//
+/*
+    方案来自：http://www.jianshu.com/p/bc85a3d37519/comments/465497
+    我的博客：http://www.cnblogs.com/R0SS/p/5399300.html
+ */
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "AbstractNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +22,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    AbstractNavigationController * nc = [[AbstractNavigationController alloc] initWithRootViewController:[ViewController new]];
+    
+    self.window.rootViewController = nc;
+    
     return YES;
 }
 

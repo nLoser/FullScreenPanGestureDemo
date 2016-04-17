@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92EEBA61CC35137009B0E78 /* UINavigationController+FullScreenBackGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = A92EEBA51CC35137009B0E78 /* UINavigationController+FullScreenBackGesture.m */; };
+		A92EEBA91CC351BE009B0E78 /* AbstractNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92EEBA81CC351BE009B0E78 /* AbstractNavigationController.m */; };
 		A9F894D11CC26D76005A40D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F894D01CC26D76005A40D7 /* main.m */; };
 		A9F894D41CC26D76005A40D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F894D31CC26D76005A40D7 /* AppDelegate.m */; };
 		A9F894D71CC26D76005A40D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F894D61CC26D76005A40D7 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A92EEBA41CC35137009B0E78 /* UINavigationController+FullScreenBackGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FullScreenBackGesture.h"; sourceTree = "<group>"; };
+		A92EEBA51CC35137009B0E78 /* UINavigationController+FullScreenBackGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FullScreenBackGesture.m"; sourceTree = "<group>"; };
+		A92EEBA71CC351BE009B0E78 /* AbstractNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractNavigationController.h; sourceTree = "<group>"; };
+		A92EEBA81CC351BE009B0E78 /* AbstractNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractNavigationController.m; sourceTree = "<group>"; };
 		A9F894CC1CC26D76005A40D7 /* AssociatedDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssociatedDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F894D01CC26D76005A40D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9F894D21CC26D76005A40D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 				A9F894D31CC26D76005A40D7 /* AppDelegate.m */,
 				A9F894D51CC26D76005A40D7 /* ViewController.h */,
 				A9F894D61CC26D76005A40D7 /* ViewController.m */,
+				A92EEBA41CC35137009B0E78 /* UINavigationController+FullScreenBackGesture.h */,
+				A92EEBA51CC35137009B0E78 /* UINavigationController+FullScreenBackGesture.m */,
+				A92EEBA71CC351BE009B0E78 /* AbstractNavigationController.h */,
+				A92EEBA81CC351BE009B0E78 /* AbstractNavigationController.m */,
 				A9F894D81CC26D77005A40D7 /* Main.storyboard */,
 				A9F894DB1CC26D77005A40D7 /* Assets.xcassets */,
 				A9F894DD1CC26D77005A40D7 /* LaunchScreen.storyboard */,
@@ -150,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F894D71CC26D76005A40D7 /* ViewController.m in Sources */,
+				A92EEBA61CC35137009B0E78 /* UINavigationController+FullScreenBackGesture.m in Sources */,
+				A92EEBA91CC351BE009B0E78 /* AbstractNavigationController.m in Sources */,
 				A9F894D41CC26D76005A40D7 /* AppDelegate.m in Sources */,
 				A9F894D11CC26D76005A40D7 /* main.m in Sources */,
 			);
@@ -300,6 +312,7 @@
 				A9F894E51CC26D77005A40D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

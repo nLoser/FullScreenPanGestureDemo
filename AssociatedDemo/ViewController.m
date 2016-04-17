@@ -8,15 +8,23 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = [NSString stringWithFormat:@"随机页 - %d",arc4random()%100 + 1];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:self.view.bounds];
+    [button addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+-(void)btnClick
+{
+    ViewController *vc = [[ViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
