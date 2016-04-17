@@ -14,7 +14,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     self.title = [NSString stringWithFormat:@"随机页 - %d",arc4random()%100 + 1];
+    
+    self.view.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
     
     UIButton *button = [[UIButton alloc] initWithFrame:self.view.bounds];
     [button addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
